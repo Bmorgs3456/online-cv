@@ -1,0 +1,231 @@
+/* index.html */
+html {
+    scroll-behavior: smooth;
+    background-color: lightblue;
+    font-size: 15px;
+}
+h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.heading-container {
+    margin: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+nav a {
+    padding-right: 10px;
+}
+.profile-pic {
+    margin-left: 260px;
+    
+}
+.profile-pic img {
+    height: 350px;
+    border: 5px solid blue;
+}
+.experience {
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* Work Experience Section */
+.job-container-a h3 {
+    margin-top: -5px;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+.job-container-a h4 {
+    text-decoration: underline;
+}
+.job-container-a p {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.job-container-a ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+.job-container-b h3 {
+    margin-top: -5px;
+    padding: 5px 0px 0px 0px;
+    text-decoration: underline;
+}
+.job-container-b h4 {
+    text-decoration: underline;
+}
+.job-container-b p {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.job-container-b ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+.job-container-c h3 {
+    margin-top: -5px;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+.job-container-c h4 {
+    text-decoration: underline;
+}
+.job-container-c p {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.job-container-c ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+.job-container-d h3 {
+    margin-top: -5px;
+    padding-top: 5px;
+    text-decoration: underline
+}
+.job-container-d h4 {
+    text-decoration: underline
+}
+.job-container-d p {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.job-container-d ul li {
+    font-weight: 700;
+    font-style: oblique
+}
+.job-container-e h3 {
+    margin-top:-5px;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+.job-container-e h4 {
+    text-decoration: underline;
+}
+.job-container-e p {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.job-container-e ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+.job-container-f h3 {
+    margin-top: -5px;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+.job-container-f h4 {
+    text-decoration: underline;
+}
+.job-container-f p {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.job-container-f ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+/* Education/Training Section */
+.edu-training {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.edu-container-a h3{
+    margin-top: -5px;
+    text-decoration:  underline;
+}
+.edu-container-a h4 {
+    text-decoration: underline;
+}
+.edu-container-a ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+.edu-container-b h3 {
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.edu-container-b h4 {
+    text-decoration: underline;
+}
+.edu-container-b h5 {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.edu-container-b ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+.edu-container-c h5 {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.edu-container-c ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+.edu-container-d h3 {
+    text-decoration: underline;
+}
+.edu-container-d h4 {
+    text-decoration: underline;
+}
+.edu-container-d p {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.edu-container-d ul li {
+    font-weight: 700;
+    font-style: oblique;
+}
+/* Hobbies & Interests */
+.hobbies-int {
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.hobbies-int-container {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* References */
+.references {
+    margin-top: 30px;
+}
+
+/* about.html */
+.about-me-heading {
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-info {
+    text-align: justify;
+    margin-bottom: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.skills-qual-info h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.skills-qual-info ul li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* contact.html */
+.contact-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#address-info {
+    text-align: center;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#ref-text {
+    font-style:oblique
+}
