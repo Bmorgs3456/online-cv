@@ -11,7 +11,7 @@ h1 {
 }
 .heading-container {
     margin: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav {
     text-align: center;
@@ -22,12 +22,44 @@ nav a {
     padding-right: 10px;
 }
 .profile-pic {
-    margin-left: 490px;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 .profile-pic img {
     height: 350px;
     border: 5px solid blue;
+}
+.accordion {
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 .experience {
     font-size: 2rem;
@@ -136,7 +168,6 @@ nav a {
     font-weight: 500;
 }
 .edu-container-a h3{
-    margin-top: -5px;
     text-decoration:  underline;
 }
 .edu-container-a h4 {
@@ -196,6 +227,8 @@ nav a {
 /* References */
 .references {
     margin-top: 30px;
+    font-weight: 500;
+    font-size: 2rem;
 }
 
 /* about.html */
